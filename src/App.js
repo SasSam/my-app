@@ -1,3 +1,4 @@
+import {Button} from '../node_modules/my-lib/dist';
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button>Button component</Button>
       </header>
     </div>
   );
